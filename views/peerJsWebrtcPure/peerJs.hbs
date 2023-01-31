@@ -1,0 +1,29 @@
+<script src="https://unpkg.com/peerjs@1.4.7/dist/peerjs.min.js"></script>
+<div class="container">
+   <div class="first-row">
+        <div class="left-col">
+            <video id="localVideo" autoplay style="background-color: black;"></video>
+        </div>
+        <div class="right-col">
+            <video id="remoteVideo" autoplay style="background-color: black;"></video><br><br>
+        </div>
+    </div>
+    <div class="second-row">
+        <button id="hideVideoBtn">mute video</button>
+        <button id="hideAudioBtn">mute audio</button>
+    </div>
+    <div class="third-row">
+        <input id="register" placeholder="create user" />
+        <button id="registerBtn">create user</button>
+    </div>
+    <div class="third-row">
+        <input id="whoTocall" placeholder="whoTocall" />
+        <button id="whoTocallBtn">call</button>
+    </div>
+    <div class="third-row">
+        <button><a href="/">back to home</a></button>
+    </div>
+</div>
+<script src="/javascripts/peerJsWebrtc1/main.js"></script>
+<script src="/javascripts/peerJsWebrtc1/offerer.js"></script>
+<script src="/javascripts/peerJsWebrtc1/answer.js"></script>
